@@ -52,8 +52,12 @@ export default class TitleScene extends Phaser.Scene {
       yoyo: true, repeat: -1, ease: 'Sine.easeInOut',
     });
 
-    this.add.text(W / 2, 680, '© Gravity Gardens 2026', {
-      fontSize: '11px', color: '#555577',
+    this.add.text(W / 2, 668, '© Gravity Gardens 2026  |  Built with Phaser 3 by Photon Storm', {
+      fontSize: '10px', color: '#555577',
+    }).setOrigin(0.5);
+
+    this.add.text(W / 2, 684, 'All graphics procedurally generated  |  No external assets', {
+      fontSize: '10px', color: '#444466',
     }).setOrigin(0.5);
 
     // DISCRETE INPUT: fires once on keydown, not continuously
