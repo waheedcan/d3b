@@ -1,0 +1,4 @@
+.DS_Store
+Phaser.js
+*.sh
+node_modules/
